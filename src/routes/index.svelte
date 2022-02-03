@@ -17,14 +17,13 @@
 
 	// replace the following config with your own config on firebase console
 	export const firebaseConfig = {
-		apiKey: "",
-		authDomain: "",
-		projectId: "",
-		storageBucket: "",
-		messagingSenderId: "",
-		appId: "",
-		measurementId: "",
-	};
+  apiKey: "AIzaSyDyLcYGrajkwEe7Oo6VjpLw1QSY3uC19_M",
+  authDomain: "sk-fs-6c641.firebaseapp.com",
+  projectId: "sk-fs-6c641",
+  storageBucket: "sk-fs-6c641.appspot.com",
+  messagingSenderId: "811983126544",
+  appId: "1:811983126544:web:f900d70238d5a77ac18a95"
+};
 
 	const firebaseApp = initializeApp(firebaseConfig);
 	const db = getFirestore();
@@ -89,8 +88,8 @@
 	// }
 </script>
 
-<input type="text" bind:value={todoInput} placeholder="add a task" />
-<button on:click={addTodo}>Add</button>
+<input type="text" bind:value={todoInput} placeholder="입력하세요" />
+<button on:click={addTodo}>추가</button>
 
 <ol>
 	{#if todos.length > 0}

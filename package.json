@@ -8,10 +8,10 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
-    "svelte": "^3.42.6"
+    "svelte": "next"
   },
   "type": "module",
   "dependencies": {
-    "firebase": "^9.4.0"
+    "firebase": "^9.6.6-202211222730"
   }
 }
